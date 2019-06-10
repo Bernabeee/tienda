@@ -1,0 +1,20 @@
+.primary_button {
+    background-color: $white;
+    color: $quick-silver;
+    border: 1px solid $quick-silver;
+    &:hover {
+        background-color: $white;
+        color: $black;
+        border: 1px solid $black;
+    }}
+
+    .secundary_button {
+        background-color: $shiny-shamrock;
+        color: $white;
+        &:hover {
+            background-color: $turqoise-green;
+            color: $black;
+            border: 1px solid $black;
+        }
+
+    }

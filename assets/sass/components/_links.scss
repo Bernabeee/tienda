@@ -1,0 +1,18 @@
+a:link
+{
+text-decoration:none;
+} 
+
+a:hover
+{
+    text-decoration:none;
+}
+
+
+nav ul li a {
+    color: $black;
+    &:hover {
+        color: $quick-silver;
+    }
+
+}

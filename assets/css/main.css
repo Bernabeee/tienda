@@ -8665,63 +8665,6 @@ table {
   border-spacing: 0;
 }
 
-h1,
-h3,
-h2,
-nav a {
-  font-family: "PT Mono", monospace;
-}
-
-p,
-h4 {
-  font-family: "Roboto", sans-serif;
-}
-
-h1 {
-  font-size: 70px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 40px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-p {
-  font-size: 16px;
-}
-
-span {
-  display: block;
-}
-
-.primary_button {
-  background-color: #ffffff;
-  color: #a2a2a2;
-  border: 1px solid #a2a2a2;
-}
-.primary_button:hover {
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px solid #000000;
-}
-
-.secundary_button {
-  background-color: #4ca866;
-  color: #ffffff;
-}
-.secundary_button:hover {
-  background-color: #9dcfab;
-  color: #000000;
-  border: 1px solid #000000;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -8731,10 +8674,10 @@ a:hover {
 }
 
 nav ul li a {
-  color: #000000;
+  color: #000;
 }
 nav ul li a:hover {
-  color: #a2a2a2;
+  color: #a6a5a8;
 }
 
 /*# sourceMappingURL=main.css.map */

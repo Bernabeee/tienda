@@ -1,7 +1,7 @@
 .boton__form--position {
     transform: rotate(90deg);
     position: absolute;
-    right: -29%;
+    right: -20%;
     top: 40.9%;
 }
 
@@ -15,4 +15,17 @@
     font-family: $old-standard;
     font-weight: $bold;
     font-size: $large;
+}
+
+
+
+
+.boton__primero {
+    padding: 15px 30px;
+    background-color: $white;
+    border: 1px solid $smocky-black;
+    margin-top: 1rem;
+    display: inline-block;
+    color: $smocky-black;
+    font-family: $raleway;
 }

@@ -8688,57 +8688,11 @@ p {
   font-size: 16px;
 }
 
-.logo {
-  font-family: "Old Standard TT", serif;
-  font-size: 30px;
-  font-weight: 700;
-  color: #ffffff;
-  padding: 20px;
-  background-color: #0c0910;
-}
-
-.navbar {
-  padding: 0rem 1rem 0.5rem 0rem;
-}
-
-nav ul li a {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.contenedor__dos--fondo {
-  background-image: url("../img/model.jpg");
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
-}
-
-.contenedor__uno {
-  height: 100vh;
-  padding: 0;
-}
-
-.contenedor__uno--contenidouno {
-  height: 60vh;
-  padding: 5rem 4rem 3rem 3rem;
-}
-
-.newsletter {
-  height: 40vh;
-  padding: 5rem 3rem;
-}
-
-.newsletter--color {
-  background-color: #0c0910;
-  color: #ffffff;
-}
-
 .boton__form--position {
   transform: rotate(90deg);
   position: absolute;
-  right: -29%;
-  top: 41%;
+  right: -20%;
+  top: 40.9%;
 }
 
 .boton__form {
@@ -8747,9 +8701,20 @@ nav ul li a {
   color: #0c0910;
   border-radius: 0px;
   padding: 1rem;
-  font-family: "Raleway", sans-serif;
+  border: 1px solid #ffffff;
+  font-family: "Old Standard TT", serif;
   font-weight: 700;
   font-size: 18px;
+}
+
+.boton__primero {
+  padding: 15px 30px;
+  background-color: #ffffff;
+  border: 1px solid #0c0910;
+  margin-top: 1rem;
+  display: inline-block;
+  color: #0c0910;
+  font-family: "Raleway", sans-serif;
 }
 
 a:link {
@@ -8774,6 +8739,310 @@ nav ul li a:hover {
 
 .form-control {
   width: 60%;
+}
+
+.logo {
+  font-family: "Old Standard TT", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 20px;
+  background-color: #0c0910;
+}
+
+.navbar {
+  padding: 0rem 1rem 0rem 0rem;
+}
+
+nav ul li a {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contenedor__dos--fondo {
+  background-image: url("../img/model.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.contenedor__uno {
+  height: 100vh;
+  padding: 0;
+}
+
+.contenedor__uno--contenidouno {
+  height: 60vh;
+  padding: 5rem 5rem 3rem 5rem;
+}
+
+.newsletter {
+  height: 40vh;
+  padding: 5rem 3rem;
+}
+
+.newsletter--color {
+  background-color: #0c0910;
+  color: #ffffff;
+}
+
+.texto__dimention--marginr {
+  margin-right: 5rem;
+}
+
+.texto__dimention--paddingr {
+  padding-right: 5rem;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -23.96%;
+    top: 40.9%;
+  }
+}
+@media (min-width: 722px) and (max-width: 1199px) {
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -25.8%;
+    top: 40.9%;
+  }
+
+  .texto__dimention--paddingr {
+    padding-right: 0rem;
+  }
+
+  .texto__dimention--marginr {
+    margin-right: 0rem;
+  }
+}
+@media (min-width: 722px) and (max-width: 1017px) {
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -28.4%;
+    top: 40.9%;
+  }
+
+  .texto__dimention--paddingr {
+    padding-right: 0rem;
+  }
+
+  .texto__dimention--marginr {
+    margin-right: 0rem;
+  }
+
+  p {
+    line-height: 1em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .contenedor__uno--contenidouno {
+    height: auto;
+    padding: 5rem 5rem 3rem 5rem;
+  }
+
+  .contenedor__dos--fondo {
+    height: 50vh;
+  }
+
+  .contenedor__uno--contenidouno {
+    height: 50vh;
+  }
+
+  .form-control {
+    width: 90% !important;
+  }
+
+  .contenedor__uno {
+    height: auto;
+  }
+
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -17.4%;
+    top: 41.9%;
+  }
+
+  .boton__form {
+    width: 318px;
+  }
+
+  .newsletter {
+    height: auto;
+  }
+
+  .texto__dimention--paddingr {
+    padding-right: 0rem;
+  }
+
+  .texto__dimention--marginr {
+    margin-right: 0rem;
+  }
+
+  p {
+    line-height: 1em;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -32.5%;
+    top: 41.9%;
+  }
+
+  .boton__form {
+    width: 318px;
+  }
+
+  .newsletter {
+    height: auto;
+  }
+
+  .contenedor__dos--fondo {
+    height: 50vh;
+  }
+
+  .contenedor__uno--contenidouno {
+    height: auto;
+    padding: 5rem 2rem 3rem 2rem;
+  }
+
+  .texto__dimention--paddingr {
+    padding-right: 0rem;
+  }
+
+  .texto__dimention--marginr {
+    margin-right: 0rem;
+  }
+
+  p {
+    line-height: 2em;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+
+  .contenedor__uno {
+    height: auto;
+    padding: 0;
+  }
+
+  .contenedor__uno--contenidouno {
+    height: auto;
+    padding: 3rem 2rem 3rem 2rem;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -32.5%;
+    top: 41.9%;
+  }
+
+  .boton__form {
+    width: 318px;
+  }
+
+  .newsletter {
+    height: auto;
+  }
+
+  .contenedor__dos--fondo {
+    height: 50vh;
+  }
+
+  .contenedor__uno--contenidouno {
+    height: auto;
+    padding: 5rem 2rem 3rem 2rem;
+  }
+
+  .texto__dimention--paddingr {
+    padding-right: 0rem;
+  }
+
+  .texto__dimention--marginr {
+    margin-right: 0rem;
+  }
+
+  p {
+    line-height: 2em;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+
+  .contenedor__uno {
+    height: auto;
+    padding: 0;
+  }
+
+  .contenedor__uno--contenidouno {
+    height: auto;
+    padding: 3rem 2rem 3rem 2rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -32.5%;
+    top: 41.9%;
+  }
+
+  .boton__form {
+    width: 318px;
+  }
+
+  .newsletter {
+    height: auto;
+  }
+
+  .contenedor__dos--fondo {
+    height: 50vh;
+  }
+
+  .contenedor__uno--contenidouno {
+    height: auto;
+    padding: 5rem 2rem 3rem 2rem;
+  }
+
+  .texto__dimention--paddingr {
+    padding-right: 0rem;
+  }
+
+  .texto__dimention--marginr {
+    margin-right: 0rem;
+  }
+
+  p {
+    line-height: 2em;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+
+  .contenedor__uno {
+    height: auto;
+    padding: 0;
+  }
+
+  .contenedor__uno--contenidouno {
+    height: auto;
+    padding: 3rem 2rem 3rem 2rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

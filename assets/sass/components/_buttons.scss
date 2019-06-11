@@ -1,0 +1,18 @@
+.boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -29%;
+    top: 40.9%;
+}
+
+.boton__form {
+    width: 289px;
+    background-color: $white;
+    color: $smocky-black;
+    border-radius: 0px;
+    padding: 1rem;
+    border: 1px solid $white;
+    font-family: $old-standard;
+    font-weight: $bold;
+    font-size: $large;
+}

@@ -8758,7 +8758,7 @@ nav ul li a:hover {
 ::placeholder {
   font-family: "Raleway", sans-serif;
   color: "Old Standard TT", serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .logo {
@@ -8977,6 +8977,10 @@ nav ul li a {
     height: auto;
     padding: 3rem 2rem 3rem 2rem;
   }
+
+  .form-control {
+    width: 90%;
+  }
 }
 @media (min-width: 480px) and (max-width: 767px) {
   .boton__form--position {
@@ -9028,6 +9032,10 @@ nav ul li a {
   .contenedor__uno--contenidouno {
     height: auto;
     padding: 3rem 2rem 3rem 2rem;
+  }
+
+  .form-control {
+    width: 90%;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -9088,6 +9096,10 @@ nav ul li a {
     position: absolute;
     right: -23%;
     top: 41.9%;
+  }
+
+  .form-control {
+    width: 90%;
   }
 }
 @media (min-width: 1156) and (max-width: 1256) {

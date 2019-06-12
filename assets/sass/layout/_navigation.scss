@@ -17,3 +17,21 @@ nav ul li a {
     font-weight: $bold;
 
 }
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 2rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0rem;
+}
+
+.navbar-light .navbar-toggler {
+    color: $smocky-black;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-nav {
+    padding: 1rem;
+}

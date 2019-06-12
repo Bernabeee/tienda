@@ -8686,12 +8686,13 @@ h2 {
 
 p {
   font-size: 16px;
+  line-height: normal;
 }
 
 .boton__form--position {
   transform: rotate(90deg);
   position: absolute;
-  right: -20%;
+  right: -19.8%;
   top: 40.9%;
 }
 
@@ -8760,6 +8761,20 @@ nav ul li a {
   font-weight: 700;
 }
 
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 2rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: #0c0910;
+  border-color: rgba(0, 0, 0, 0);
+}
+
 .contenedor__dos--fondo {
   background-image: url("../img/model.jpg");
   background-size: cover;
@@ -8807,7 +8822,7 @@ nav ul li a {
   .boton__form--position {
     transform: rotate(90deg);
     position: absolute;
-    right: -25.8%;
+    right: -32.5%;
     top: 40.9%;
   }
 
@@ -8885,19 +8900,19 @@ nav ul li a {
   }
 
   p {
-    line-height: 1em;
+    line-height: 2rem;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .boton__form--position {
     transform: rotate(90deg);
     position: absolute;
-    right: -32.5%;
+    right: -35.5%;
     top: 41.9%;
   }
 
   .boton__form {
-    width: 318px;
+    width: 317px;
   }
 
   .newsletter {
@@ -9001,7 +9016,7 @@ nav ul li a {
   }
 
   .boton__form {
-    width: 318px;
+    width: 317px;
   }
 
   .newsletter {
@@ -9042,6 +9057,30 @@ nav ul li a {
   .contenedor__uno--contenidouno {
     height: auto;
     padding: 3rem 2rem 3rem 2rem;
+  }
+}
+@media (min-width: 580px) and (max-width: 722px) {
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -23%;
+    top: 41.9%;
+  }
+}
+@media (min-width: 1156) and (max-width: 1256) {
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -22.5%;
+    top: 41.9%;
+  }
+}
+@media (min-width: 500px) and (max-width: 579px) {
+  .boton__form--position {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -27%;
+    top: 41.9%;
   }
 }
 

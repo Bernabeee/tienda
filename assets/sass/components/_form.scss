@@ -5,3 +5,10 @@
 .form-control {
     width: 60%;
 }
+
+::placeholder {
+    font-family: $raleway;
+    color: $old-standard;
+    font-weight: $bold;
+}
+

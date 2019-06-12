@@ -8707,6 +8707,10 @@ p {
   font-weight: 700;
   font-size: 18px;
 }
+.boton__form:focus {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
 
 .boton__primero {
   padding: 15px 30px;
@@ -8716,6 +8720,15 @@ p {
   display: inline-block;
   color: #0c0910;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.boton__primero:hover {
+  border: 1px solid #a6a5a8;
+  color: #0c0910;
+}
+.boton__primero:focus {
+  border: 1px solid #a6a5a8;
+  color: #a6a5a8;
 }
 
 a:link {
@@ -8740,6 +8753,12 @@ nav ul li a:hover {
 
 .form-control {
   width: 60%;
+}
+
+::placeholder {
+  font-family: "Raleway", sans-serif;
+  color: "Old Standard TT", serif;
+  font-weight: 700;
 }
 
 .logo {
@@ -8773,6 +8792,10 @@ nav ul li a {
 .navbar-light .navbar-toggler {
   color: #0c0910;
   border-color: rgba(0, 0, 0, 0);
+}
+
+#navbarNav ul {
+  padding: 1rem;
 }
 
 .contenedor__dos--fondo {
@@ -8865,7 +8888,7 @@ nav ul li a {
   }
 
   .contenedor__uno--contenidouno {
-    height: 50vh;
+    height: auto;
   }
 
   .form-control {

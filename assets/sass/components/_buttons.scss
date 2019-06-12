@@ -15,10 +15,12 @@
     font-family: $old-standard;
     font-weight: $bold;
     font-size: $large;
+    &:focus {
+        color: $white;
+        border: 1px solid $white;
+        ;
+    }
 }
-
-
-
 
 .boton__primero {
     padding: 15px 30px;
@@ -28,4 +30,15 @@
     display: inline-block;
     color: $smocky-black;
     font-family: $raleway;
+    font-weight: $bold;
+    &:hover {
+        border: 1px solid $quick-silver;
+        color:  $smocky-black
+    }
+    &:focus {
+
+        border: 1px solid $quick-silver;
+        color:  $quick-silver;
+
+    }
 }
